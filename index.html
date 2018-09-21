@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang=ru>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Косметическая клиника "Эго"</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Mono&amp;subset=cyrillic-ext" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+
+    <!-- Наш файл стилей -->
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+<header id="header" class="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-12">
+                <div class="logo__header">
+                    <a href="#"><img src="img/logo_ego.svg" alt="logo"></a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-12">
+                <div class="adres__header">
+                    <p>проезд Воробьева, 3<br>г. Астрахань</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-12">
+                <div class="word-time__header">
+                    <p>Режим работы<br>Пн-Вс: 10:00-20:00<br>без перерыва</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-12">
+                <div class="number__header">
+                    <p id="number">+7(927)566-28-12<br>49-37-77</p>
+                    <a href=""><p id="give-call">Записаться на прием</p></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section id="menu" class="menu">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-6">
+                <div class="menu__head">
+                    <ul id="menu__head" class="d-flex">
+                        <li id="menu-main"><a href="#">Главная</a></li>
+                        <li id="menu-about"><a href="#">О клинике</a></li>
+                        <li id="menu-uslugi"><a href="#">Услуги</a></li>
+                        <li id="menu-price"><a href="#">Прайс</a></li>
+                        <li id="menu-specialist"><a href="#">Специалисты</a></li>
+                        <li id="menu-contact"><a href="#">Контакты</a></li>
+                        <li>
+                            <div id="searchForm">
+                                <form>
+                                    <input id="form__submit" type="submit" value="">
+                                    <input id="form__search" type="search" placeholder="Введите название услуги..." >
+
+                                </form>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="minScreen__menu">
+                    <div id="mySidenav" class="sidenav">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <ul id="minScreen__menu">
+                            <li id="minScreen__menu__main"><a href="#">Главная</a></li>
+                            <li id="minScreen__menu__about"><a href="#">О клинике</a></li>
+                            <li id="minScreen__menu__uslugi"><a href="#">Услуги</a></li>
+                            <li id="minScreen__menu__price"><a href="#">Прайс</a></li>
+                            <li id="minScreen__menu__specialist"><a href="#">Специалисты</a></li><li id="minScreen__menu__contact"><a href="#">Контакты</a></li>
+                        </ul>
+                    </div>
+
+                    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Меню</span>
+
+                    <script>
+                        function openNav() {
+                            document.getElementById("mySidenav").style.width = "250px";
+                        }
+
+                        function closeNav() {
+                            document.getElementById("mySidenav").style.width = "0";
+                        }
+                    </script>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section id="slider" class="slider">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="sliderA">
+                    <input type="radio" name="slider1" id="slider1_1" checked="checked">
+                    <label for="slider1_1"></label>
+                    <div class="photo-clinic"> <img src="img/slide1.png" alt="Фото 1" title="Форма клиники"> </div>
+
+                    <input type="radio" name="slider1" id="slider1_2">
+                    <label for="slider1_2"></label>
+                    <div class="photo-clinic"> <img src="img/slide2.png" alt="Фото клиники" title="Форма 2" > </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="block1" class="block1">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="block1__title">
+                    <h2>УСЛУГИ КЛИНИКИ</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-md-6 center">
+                <p><img src="img/uslugi-hair.jpg" alt="Услуги по уходу за волосами" title="Услуги по уходу за волосами">
+                    <a href=""><br>Волосы</a></p>
+            </div>
+            <div class="col-lg-3 col-md-6 center">
+                <p><img src="img/uslugi-face.jpg" alt="Услуги по уходу за лицом" title="Услуги по уходу за лицом">
+                    <a href=""><br>Лицо</a></p>
+            </div>
+            <div class="col-lg-3 col-md-6 center">
+                <p><img src="img/uslugi-nail.jpg" alt="Услуги по уходу за ногтями" title="Услуги по уходу за ногтями">
+                    <a href=""><br>Ногти</a></p>
+            </div>
+            <div class="col-lg-3 col-md-6 center">
+                <p><img src="img/uslugi-doctors.jpg" alt="Услуги по уходу за здоровьем" title="Услуги по уходу за здоровьем">
+                    <a href=""><br>Здоровье</a></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="zavitushka__block1 center">
+                    <img src="img/zavituha.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="block2" class="block2">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="block2__title center">
+                    <h2>О КЛИНИКЕ</h2>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12">
+                <div class="text-block2">
+                    <p> Квалификация наших врачей — на первом месте.
+                        Каждый доктор имеет сертификат по дерматологии и специализацию
+                        по косметологии. Специалисты нашей клиники в совершенстве владеют
+                        инъекционными и другими методами омоложения. Многие врачи
+                        являются сертифицированными тренерами по инъекционным и аппаратным
+                        методам, преподают в учебном центре «АЗЭЛЮКС». Мы регулярно
+                        совершенствуем знания и навыки на столичных и международных мастер-
+                        классах и конференциях.
+                        <br>
+                        <br>
+                        Незаменимыми в нашей команде являются медсестры, их труд,
+                        профессионализм и опыт невозможно переоценить. Это большое
+                        удовольствие получать благодарности от клиентов.
+                    </p>
+                    <h4 class="center text-block2__title2">ТЕХНОЛОГИИ</h4>
+                    <p>Мы применяем наилучшие в мире инъекционные препараты и аппаратные
+                        технологии, имеющие сертификацию на территории РФ, в Европе и США.
+                        Мы используем продукцию мировых лидеров эстетической медицины для
+                        уходовых процедур, пилингов, инъекций, удаления новобразований,
+                        аппаратной подтяжки, лазерной эпиляции и удаления сосудистой сетки,
+                        что обеспечивает безопасные, прогнозируемые, выраженные и устойчивые
+                        результаты эстетической коррекции.
+                    </p>
+                </div>
+
+            </div>
+            <div class="col-lg-6 col-md-12">
+                <div class="block2__image">
+                    <img src="img/about-photo1.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="zavitushka__block1 center">
+                    <img src="img/zavituha.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<footer id="footer" class="footer">
+    <div class="container">
+        <div class="row">
+            <section id="footer__menu" class="footer__menu">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="menu__footer">
+                                <ul id="menu__footer" class="d-flex center">
+                                    <li id="menu-about__footer"><a href="#">О КЛИНИКЕ</a></li>
+                                    <li id="menu-uslugi__footer"><a href="#">ПРОЦЕДУРЫ И УСЛУГИ</a></li>
+                                    <li id="menu-specialist__footer"><a href="#">СПЕЦИАЛИСТЫ</a></li>
+                                    <li id="menu-problem__footer"><a href="#">ПРОБЛЕМЫ И РЕШЕНИЯ</a></li>
+                                    <li id="menu-contact__footer" style="border:none;"><a href="#">КОНТАКТЫ</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="footer__block1" class="footer__block1">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 ">
+                            <ul id="footer__block1" class="d-flex">
+                                <li>
+                                    <div class="workTime__footer">
+                                        <p>Режим работы<br>Пн-Вс: 10:00-20:00<br>без перерыва</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="adres__footer">
+                                        <p>проезд Воробьева, 3<br>г. Астрахань</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="number__footer">
+                                        <p id="number__footer">+7(927)566-28-12<br>49-37-77</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div id="give-call__footer" class="col-sm-12">
+                                        <a href="">Записаться на прием</a>
+                                    </div>
+                                </li>
+                            </ul>
+
+                            <div class="social__icon">
+                                <a href="https://www.vk.com"><img src="img/vk-circled-50.png" alt=""></a>
+                                <a href="https://www.facebook.com"><img src="img/facebook-32.png" alt=""></a>
+                                <a href="https://www.instagram.com"><img src="img/instagram-32.png" alt=""></a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+
+
+</footer>
+
+</body>
+</html>
